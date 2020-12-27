@@ -1,14 +1,19 @@
 import React from "react";
 import s from './MyPosts.module.css'
 import Post from "./Post/Post";
+import ProfileInfo from "../ProfileInfo/ProfileInfo";
 
 const MyPosts = () => {
     return (
-        <div>
-            My posts
+        <div className={s.postsBlock}>
+             <h3>My posts</h3>
             <div>
-                <textarea></textarea>
-                <button>Add new post</button>
+                <div>
+                    <textarea></textarea>
+                </div>
+                <div>
+                    <button>Add new post</button>
+                </div>
             </div>
             <div className={s.posts}>
                 <Post message='Hello, dude' likesCount='20'/>
