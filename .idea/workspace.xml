@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01b15cce-8642-4f87-9b7d-f384b1dff561" name="Default Changelist" comment="16. props">
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogItem/DialogItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/Message/Message.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +27,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Profile/ProfileInfo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Dialogs/Message" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -35,11 +37,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\code\react-first\react-uno\src\components\Dialogs\Message" />
+      <recent name="C:\code\react-first\react-uno\src\components\Dialogs\DialogItem" />
       <recent name="C:\code\react-first\react-uno\src\components\Profile\ProfileInfo" />
       <recent name="C:\code\react-first\react-uno\src\components\News" />
       <recent name="C:\code\react-first\react-uno\src\components\Profile\MyPosts\Post" />
-      <recent name="C:\code\react-first\react-uno\src\components\Profile\MyPosts" />
-      <recent name="C:\code\react-first\react-uno\src\components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\code\react-first\react-uno\src\components\Profile" />
@@ -63,7 +65,8 @@
       <workItem from="1608962155350" duration="1434000" />
       <workItem from="1609073264044" duration="2445000" />
       <workItem from="1609863189618" duration="1420000" />
-      <workItem from="1609932802633" duration="5570000" />
+      <workItem from="1609932802633" duration="7641000" />
+      <workItem from="1610275126167" duration="2857000" />
     </task>
     <task id="LOCAL-00001" summary="css-modules">
       <created>1608641313258</created>
