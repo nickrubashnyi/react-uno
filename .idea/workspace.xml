@@ -6,6 +6,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +83,9 @@
       <workItem from="1609863189618" duration="1420000" />
       <workItem from="1609932802633" duration="7641000" />
       <workItem from="1610275126167" duration="7303000" />
-      <workItem from="1610356071018" duration="5105000" />
+      <workItem from="1610356071018" duration="6135000" />
+      <workItem from="1610547457963" duration="811000" />
+      <workItem from="1610562008626" duration="1297000" />
     </task>
     <task id="LOCAL-00001" summary="css-modules">
       <created>1608641313258</created>
