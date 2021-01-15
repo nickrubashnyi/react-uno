@@ -1,10 +1,27 @@
 import {renderEntireTree} from "../render";
 
+let idPost = 0;
+let createPostFunc = function (message, likesCount) {
+    return {
+        id: idPost++,
+        message: message,
+        likesCount: likesCount
+    }
+}
+
+let createMessageFunc = function (messages) {
+    return {
+        id: idPost++,
+        message: messages
+    }
+}
+
 let state = {
     profilePage: {
         posts: [
-            {id: 1, message: 'Hello, dude', likesCount: 20},
-            {id: 2, message: 'It\'s my fist post', likesCount: 35}
+            createPostFunc('Zalupa sdfsdf', 26),
+            createPostFunc('Lolka', 55),
+            createPostFunc('Komen', 66),
         ],
         newPostText: 'React-First-Post'
     },
@@ -19,21 +36,20 @@ let state = {
             {id: 6, name: 'Valera'}
         ],
         messages: [
-            {id: 1, message: 'Hello'},
-            {id: 2, message: 'My'},
-            {id: 3, message: 'Friend'},
-            {id: 4, message: 'Ya'},
-            {id: 5, message: 'Yok'}
-        ]
+            createMessageFunc('Hello'),
+            createMessageFunc('My'),
+            createMessageFunc('Dear'),
+            createMessageFunc('Friend'),
+            createMessageFunc('Hello'),
+        ],
+        newMessageText: 'Write your think'
     }
 }
 
+
 export let addPost = () => {
-    let newPost = {
-        id: 5,
-        message: state.profilePage.newPostText,
-        likesCount: 0
-    }
+    let newPost = createPostFunc(state.profilePage.newPostText, 5)
+
     state.profilePage.posts.push(newPost);
     state.updateNewPostText = '';
     renderEntireTree(state);
@@ -41,6 +57,19 @@ export let addPost = () => {
 
 export let updateNewPostText = (newText) => {
     state.profilePage.newPostText = newText;
+    renderEntireTree(state);
+}
+
+export let addMessage = () => {
+    let newMessage = createMessageFunc(state.dialogsPage.newMessageText)
+
+    state.dialogsPage.messages.push(newMessage);
+    state.dialogsPage.newMessageText = '';
+    renderEntireTree(state);
+}
+
+export let updateNewMessageText = (newMessage) => {
+    state.dialogsPage.newMessageText = newMessage;
     renderEntireTree(state);
 }
 

@@ -2,6 +2,7 @@ import React from "react";
 import s from './Dialogs.module.css';
 import DialogItem from "./DialogItem/DialogItem";
 import Message from "./Message/Message";
+import {updateNewMessageText} from "../../Redax/state";
 
 const Dialogs = (props) => {
 
@@ -12,8 +13,12 @@ const Dialogs = (props) => {
     let newDialogElement = React.createRef()
 
     let addMessage = () => {
+        props.addMessage();
+    }
+
+    let onMessageChange = () => {
         let text = newDialogElement.current.value;
-        alert(text);
+        props.updateNewMessageText(text);
     }
 
     return (
@@ -21,12 +26,15 @@ const Dialogs = (props) => {
             <div className={s.dialogsItems}>
                 {dialogsElements}
             </div>
-            <div>
-                <textarea ref={newDialogElement}></textarea>
-                <button onClick={addMessage}>send</button>
-            </div>
+
             <div className={s.messages}>
                 {messagesElements}
+            </div>
+            <div>
+                <textarea onChange={onMessageChange}
+                          ref={newDialogElement}
+                          value={props.newMessageText}/>
+                <button onClick={addMessage}>send</button>
             </div>
         </div>
 
