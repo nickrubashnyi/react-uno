@@ -8,10 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redax/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redax/state.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Message/Message.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Message/Message.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/render.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/render.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +89,7 @@
       <workItem from="1610547457963" duration="811000" />
       <workItem from="1610562008626" duration="4572000" />
       <workItem from="1610618173210" duration="16500000" />
-      <workItem from="1610719758335" duration="8851000" />
+      <workItem from="1610719758335" duration="10533000" />
     </task>
     <task id="LOCAL-00001" summary="css-modules">
       <created>1608641313258</created>

@@ -7,8 +7,8 @@ import {updateNewMessageText} from "../../Redax/state";
 const Dialogs = (props) => {
 
 
-    let dialogsElements = props.state.dialogsPage.dialogs.map(d => <DialogItem name={d.name} id={d.id}/>);
-    let messagesElements = props.state.dialogsPage.messages.map(m => <Message message={m.message}/>);
+    let dialogsElements = props.dialogsPage.dialogs.map(d => <DialogItem name={d.name} id={d.id}/>);
+    let messagesElements = props.dialogsPage.messages.map(m => <Message message={m.message}/>);
 
     let newDialogElement = React.createRef()
 
