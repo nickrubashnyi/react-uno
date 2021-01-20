@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01b15cce-8642-4f87-9b7d-f384b1dff561" name="Default Changelist" comment="16. props">
+      <change afterPath="$PROJECT_DIR$/src/Redax/createMessageFunc.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Redax/createPostFunc.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Redax/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redax/state.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/render.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +91,7 @@
       <workItem from="1610562008626" duration="4572000" />
       <workItem from="1610618173210" duration="16500000" />
       <workItem from="1610719758335" duration="11957000" />
-      <workItem from="1610877961665" duration="8552000" />
+      <workItem from="1610877961665" duration="11537000" />
     </task>
     <task id="LOCAL-00001" summary="css-modules">
       <created>1608641313258</created>

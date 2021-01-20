@@ -1,24 +1,14 @@
+import createPostFunc from "./createPostFunc";
+import createMessageFunc from "./createMessageFunc";
 let store = {
-    idPost: 0,
-    createPostFunc(message, likesCount) {
-        return {
-            id: this.idPost++,
-            message: this.message,
-            likesCount: this.likesCount
-        }
-    },
-    createMessageFunc(messages) {
-        return {
-            id: this.idPost++,
-            message: this.messages
-        }
-    },
+
+
     _state: {
         profilePage: {
             posts: [
-                this.createPostFunc('Zalupa sdfsdf', 26),
-                this.createPostFunc('Lolka', 55),
-                this.createPostFunc('Komen', 66),
+                createPostFunc('Zalupa sdfsdf', 26),
+                createPostFunc('Lolka', 55),
+                createPostFunc('Komen', 66),
             ],
             newPostText: 'React-First-Post'
         },
@@ -33,11 +23,11 @@ let store = {
                 {id: 6, name: 'Valera'}
             ],
             messages: [
-                this.createMessageFunc('Hello'),
-                this.createMessageFunc('My'),
-                this.createMessageFunc('Dear'),
-                this.createMessageFunc('Friend'),
-                this.createMessageFunc('Hello'),
+                createMessageFunc('Hello'),
+                createMessageFunc('My'),
+                createMessageFunc('Dear'),
+                createMessageFunc('Friend'),
+                createMessageFunc('Hello'),
             ],
             newMessageText: 'Write your think'
         }
@@ -49,7 +39,7 @@ let store = {
         console.log('Some changed');
     },
     addPost() {
-        let newPost = this.createPostFunc(this._state.profilePage.newPostText, 5)
+        let newPost = createPostFunc(this._state.profilePage.newPostText, 5)
 
         this._state.profilePage.posts.push(newPost);
         this._state.updateNewPostText = '';
@@ -60,7 +50,7 @@ let store = {
         this._callSubscriber(this._state);
     },
     addMessage() {
-        let newMessage = this.createMessageFunc(this._state.dialogsPage.newMessageText)
+        let newMessage = createMessageFunc(this._state.dialogsPage.newMessageText)
 
         this._state.dialogsPage.messages.push(newMessage);
         this._state.dialogsPage.newMessageText = '';
