@@ -1,6 +1,5 @@
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import state, {subscribe} from "./Redax/state";
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
@@ -13,8 +12,7 @@ let renderEntireTree = (state) => {
         <BrowserRouter>
             <React.StrictMode>
                 <App state={state}
-                     addPost={store.addPost.bind(store)}
-                     updateNewPostText={store.updateNewPostText.bind(store)}
+                     dispatch={store.dispatch.bind(store)}
                      addMessage={store.addMessage.bind(store)}
                      updateNewMessageText={store.updateNewMessageText.bind(store)}/>
             </React.StrictMode>,
