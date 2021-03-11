@@ -28,7 +28,9 @@ const App = (props) => {
                         {/*// dialogsPage={props.state.dialogsPage}*/}
                         {/*// addMessage={props.addMessage}*/}
                         {/*// updateNewMessageText={props.updateNewMessageText}/>}/>*/}
-                <Route path="/news" render={() => <News/>}/>
+                <Route path="/news" render={() => <News
+                        state={props.store.getState().dialogsPage.compone}
+                />}/>
                 <Route path="/music" render={() => <Music/>}/>
                 <Route path="/settings" render={() => <Settings/>}/>
             </div>

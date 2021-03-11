@@ -8,7 +8,7 @@ let store = {
             posts: [
                 {id: 1, message: 'dfgfsfd sdfsdf', likesCount: 26},
                 {id: 2, message: 'sfad sdfsdf', likesCount: 74},
-                {id: 3, message: 'Zalddupa sdfddsdf', likesCount: 7},
+                {id: 3, message: 'Zalddupa sdfddsdf', likesCount: 7}
 
             ],
             newPostText: 'React-First-Post'
@@ -31,7 +31,11 @@ let store = {
                 {id: 5, message: 'Hello'},
 
             ],
-            newMessageBody: ""
+            newMessageBody: "",
+            compone: {
+                name: 'Nick',
+                age: 22
+            }
         }
     },
     _callSubscriber() {
